@@ -1,0 +1,99 @@
+
+body {
+    margin: 0;
+    font-family: sofia-pro;
+    font-size: 32px ;
+    background-color: grey;
+  }
+
+#header-info {
+    display: flex;
+    justify-content: center;
+    background: black;
+    opacity: .8;
+    height: 9rem;
+    padding: 1rem;
+  }
+
+div#buttons {
+  display: flex;
+  justify-content: center;
+  background: green;
+  opacity: .8;
+  height: 5rem;
+  padding: 1rem;
+}
+  
+  div#side-bar{
+   background-color: gray;  
+   width : 300px;
+   position: absolute;
+   top: 350px;
+   min-height: 220px;
+   margin-left: 10%;
+   font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .text-on-page {
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+  }
+
+  div#main.character-content {
+    border: solid;
+    border: black;
+    top: 400px;
+    margin-right: 100px;
+    float: right;
+    text-align: center;
+    width: 240px;
+    height: 300px;
+    font-size: 24px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ div#footer {
+   bottom: 0px;;
+    width: 70%;
+    height:60px;   /* Height of the footer */
+    margin-left: 600px;
+    margin-right: 100px;
+    background: gray;
+}
+
+  li {
+  color: white
+  }
+
+button{
+  background-color: greenyellow;
+  border: solid black ;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 250px;
+  
+}
+
+.form-label{
+  font-family: Arial, Helvetica, sans-serif;
+ align-items: center;
+}
+
+button#filter-humans{
+background-color: greenyellow;
+border: solid black;
+
+}
+
+button#filter-aliens{
+background-color: greenyellow;
+border: solid black;
+}
+
+

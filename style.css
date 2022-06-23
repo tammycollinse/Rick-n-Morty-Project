@@ -1,7 +1,7 @@
 
 body {
     margin: 0;
-    font-family: sofia-pro;
+   
     font-size: 32px ;
     background-color: grey;
   }
@@ -31,12 +31,13 @@ div#buttons {
    top: 350px;
    min-height: 220px;
    margin-left: 10%;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Press Start 2P', cursive;
+   font-size: 20px
   }
 
   .text-on-page {
     color:white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
     float: left;
   }
 
@@ -44,14 +45,14 @@ div#buttons {
     border: solid;
     border: black;
     top: 400px;
-    margin-right: 100px;
+    margin-right: 320px;
     float: right;
     text-align: center;
     width: 240px;
-    height: 300px;
+    height: 400px;
     font-size: 24px;
     color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Press Start 2P', cursive;
   }
 
  div#footer {
@@ -81,7 +82,7 @@ button{
 }
 
 .form-label{
-  font-family: Arial, Helvetica, sans-serif;
+font-family: 'Press Start 2P', cursive;
  align-items: center;
 }
 

@@ -84,7 +84,7 @@ filterAliens.addEventListener("click" , () =>{ //this is the click event to filt
 fetch("https://rickandmortyapi.com/api/character").then(response => response.json()) 
 .then(charsData => {
 document.querySelector("#list-characters");
-const arrayOfCharacters = charsData.results;
+const arrayOfCharacters = charsData.results
 document.querySelector("#list-characters").innerHTML = ` `;
 arrayOfCharacters.filter( function(arrayOfCharacters){
   if (arrayOfCharacters.species === "Alien"){

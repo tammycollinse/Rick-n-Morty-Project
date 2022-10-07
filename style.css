@@ -21,7 +21,7 @@ div#buttons {
   background: green;
   opacity: .8;
   height: 5rem;
-  padding: 1rem;
+  padding: 15px;
 }
   
   div#side-bar{
@@ -81,9 +81,12 @@ button{
   
 }
 
-.form-label{
+label.form-label{
 font-family: 'Press Start 2P', cursive;
- align-items: center;
+display: inline-block;
+width: 150px;
+text-align: right;
+
 }
 
 button#filter-humans{
@@ -95,6 +98,26 @@ border: solid black;
 button#filter-aliens{
 background-color: greenyellow;
 border: solid black;
+padding: 15px;
+
 }
 
+button {
+  margin-right: 50px;
+}
 
+#new-char-form {
+  width:100%;
+  padding: 18px;
+  display: inline-block
+}
+
+input {
+  color: 	#B0B0B0;
+  padding: 8px; 
+
+}
+
+.form-fixing {
+  margin-bottom:10px
+}

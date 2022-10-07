@@ -6,7 +6,7 @@ const p3 = document.createElement("p");
 const img = document.createElement("img");
 
 const showChars = document.createElement("button");// the show all characters button
-showChars.class = "all-chars"
+showChars.id = "all-chars"
 showChars.textContent = "Show list of characters from Rick n Morty!";
 document.querySelector("#buttons.which-chars").append(showChars);
 
@@ -20,7 +20,11 @@ filterAliens.id = "filter-aliens";
 filterAliens.textContent = "Filter Alien Characters"
 document.querySelector("#buttons.which-chars").appendChild(filterAliens)
 
+
+//this item starts here
+
 function getInformation(arrayOfCharacters){ 
+  console.log(arrayOfCharacters)
   const name = arrayOfCharacters.name ;
   const deadOrAlive = arrayOfCharacters.status;
   const species = arrayOfCharacters.species;
@@ -61,6 +65,7 @@ document.querySelector("#main.character-content").appendChild(img)
 
 
 filterHumans.addEventListener("click" , () =>{ 
+
 fetch("https://rickandmortyapi.com/api/character").then(response => response.json()) 
 .then(charsData => {
 document.querySelector("#list-characters");
@@ -118,4 +123,21 @@ document.querySelector("#main.character-content").appendChild(img)
 })
 }
 submitButton();
+
+function testing(param)
+{console.log("this is my function")}
+
+function testingAgain(param){
+
+}
+
+const aTag = document.createElement("a")
+aTag.textContent = `${nameForm} wrote: ${messageInput} `
+aTag.href = `${emailForm}`
+
+document.getElementById("the-form").addEventListener("submit" , (event)=>{
+  event.preventDefault()
+  const nameFromForm = event.target.fname.value
+  console.log(nameFromForm)
+})
 
